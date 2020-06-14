@@ -1,0 +1,39 @@
+@media (max-width: 767px){
+	#logo{
+		margin: 0 auto;
+	}
+	header{
+		text-align: center;
+	}
+	footer,
+	footer .text-right{
+		text-align: center !important;
+	}
+	.navigation nav ul li{
+		float: none;
+		clear: both;
+	}
+	.info-block .info-block-body{
+		padding-left: 0;
+		overflow-y: auto;
+  		_overflow: auto;
+	}
+	.info-block table{
+		font-size: 13px;
+	}
+	.blue-text{
+		margin-top: 0;
+		float: none;
+	}
+	.blue-text:after{
+		display: none;
+	}
+	#main-nav{
+		display: none;
+	}
+	#main-nav ul{
+		display: block;
+		margin-bottom: 0;
+	}
+
+} 
